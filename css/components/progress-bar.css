@@ -1,0 +1,33 @@
+.progerss-bar-group {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.progerss-bar-group > .progress-bar {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3em;
+}
+.progerss-bar-group .top{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    color: #777;
+}
+.progerss-bar-group .title {
+
+}
+.progerss-bar-group .value {
+
+}
+.progerss-bar-group .bottom {
+    width: 100%;
+    height: 6px;
+    background-color: #ccc;
+}
+.progerss-bar-group .progress {
+    
+    width: 90%;
+    height: inherit;
+    background-color: #36f;
+}
